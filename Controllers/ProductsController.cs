@@ -35,7 +35,7 @@ namespace UpworkAssessment.Controllers
             catch(Exception e)
             {
                 _logger.LogInformation(e.ToString());
-                return BadRequest();
+                return NotFound();
             }
         }
 
